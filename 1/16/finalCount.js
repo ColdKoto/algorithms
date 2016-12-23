@@ -1,4 +1,3 @@
-<script>
 function strangeCountDown(multiple, floor, ceiling, exception){
   let i = floor;
   while(i < ceiling){
@@ -11,6 +10,3 @@ function strangeCountDown(multiple, floor, ceiling, exception){
     }
   }
 }
-
-strangeCountDown(3,5,17,9);
-</script>
