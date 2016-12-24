@@ -1,4 +1,3 @@
-<script>
 function makePosNeg(arr){
   let newArr = [];
   for(let i = 0; i < arr.length; i++){
@@ -11,7 +10,3 @@ function makePosNeg(arr){
   }
   return newArr
 }
-
-
-console.log(makePosNeg([6,5,-4,3,-2,1]))
-</script>
