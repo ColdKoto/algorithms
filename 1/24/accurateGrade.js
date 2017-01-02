@@ -1,4 +1,3 @@
-<script>
 function printGrade(score){
   let outString = 'Score: ' + score + ' Grade: ';
   if(score >= 90){
@@ -28,9 +27,3 @@ function gradeHelper(letter, score, plusCut, minusCut){
   }
   return letter;
 }
-
-
-let myArr = [2,-8,-9,10,-2,-8,11,2,9];
-
-console.log(printGrade(75.2999999999))
-</script>
