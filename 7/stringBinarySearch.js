@@ -1,4 +1,3 @@
-<script>
 function stringSearch(string, char){
   let i = Math.floor(string.length / 2),
       j = 0;
@@ -16,9 +15,3 @@ function stringSearch(string, char){
   }
   return false;
 }
-
-
-let myArr = [1,2,4,6,9,12,17];
-
-console.log(stringSearch(" &-0379DEFXZ[abcz|", " "));
-</script>
