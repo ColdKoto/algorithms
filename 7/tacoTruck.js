@@ -15,7 +15,7 @@ function optimalLocation(arr){
     if(arr[i][1] > yMax){
       yMax = arr[i][1];
     }
-    if(arr[i][1] < yMin){
+    else if(arr[i][1] < yMin){
       yMin = arr[i][1];
     }
   }

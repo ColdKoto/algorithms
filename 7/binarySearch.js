@@ -9,7 +9,7 @@ function binarySearch(arr, val){
       i = Math.floor(i / 2);
     }
     else{
-      i = Math.floor((i + string.length) / 2);
+      i = Math.floor((i + arr.length) / 2);
     }
     j++;
   }

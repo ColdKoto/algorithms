@@ -1,4 +1,3 @@
-<script>
 function messyMath(n){
   if(n % 3 === 0){
     return -1;
@@ -16,6 +15,3 @@ function messyMath(n){
   }
   return sum;
 }
-
-console.log(messyMath(15));
-</script>
