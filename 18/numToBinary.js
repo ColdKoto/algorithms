@@ -1,4 +1,3 @@
-<script>
 function numToBinary(number){
   const base = 2;
   let prefix     = '',
@@ -23,7 +22,3 @@ function numToBinary(number){
   }
   return prefix;
 }
-
-
-console.log(numToBinary(-117));
-</script>
